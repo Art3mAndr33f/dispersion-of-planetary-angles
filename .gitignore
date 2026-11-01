@@ -1,0 +1,23 @@
+# Зависимости (восстанавливаются командой npm install)
+node_modules/
+
+# Результат сборки (восстанавливается командой npm run build)
+dist/
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.tsbuildinfo
+
+# Редакторы и система
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+.env
+.env.*
+!.env.example
